@@ -215,7 +215,7 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: abhinavgupta2406/swapp-front-end:0.0.2
+        image: abhinavgupta2406/swapp-front-end:0.0.3
         #image: weaveworksdemos/front-end:0.3.12 # yes
         resources:
           requests:
