@@ -126,7 +126,7 @@ spec:
     spec:
       containers:
       - name: catalogue-db
-        image: abhinavgupta2406/swapp-catalogue-db:0.0.1
+        image: abhinavgupta2406/swapp-catalogue-db:0.0.2
         #image: weaveworksdemos/catalogue-db:0.3.0 # yes
         env:
           - name: MYSQL_ROOT_PASSWORD
@@ -170,7 +170,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: abhinavgupta2406/swapp-catalogue:0.0.1
+        image: abhinavgupta2406/swapp-catalogue:0.0.2
         #image: weaveworksdemos/catalogue:0.3.5 # yes
         ports:
         - containerPort: 80
